@@ -104,7 +104,18 @@ export  function Home() {
                     </div>
                     <div>
                         <h3 className='text-center'> À propos de moi</h3>
-                        <p>Développeur full stack certifié a LaPasserelle. jʼai appris à coder dès mon plus jeune âge dans divers langages informatiques (Javascript, React, PHP, Symfony, MySQL) et j'ai créé des projets personnels... Un site qui met en relation des expatriés avec des locaux pour l'échange des connaissances et de la culture de ce nouveau pays. Polyvalent, je maîtrise les différentes étapes techniques de la création dʼun site ou dʼune application web, de la compréhension des besoins utilisateurs, au développement frontend et backend en passant par la maintenance.</p>
+                        <p>Développeur full stack certifié a LaPasserelle. j’ai appris à
+                        coder dans divers langages informatiques (Javascript,
+                        ReactJS, TypeScript, PHP, Symfony, MySQL) et j'ai créé
+                        des projets personnels, Un site qui met en relation des
+                        expatriés avec des locaux pour l'échange des
+                        connaissances et de la culture de ce nouveau pays.
+                        Polyvalent, je maîtrise les différentes étapes techniques
+                        de la création d’un site ou d’une application web, de la
+                        compréhension des besoins utilisateurs, au
+                        développement frontend et backend en passant par la
+                        maintenance.
+                        .</p>
                 </div>
                 </div>
             </div>
