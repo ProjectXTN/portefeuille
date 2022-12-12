@@ -9,6 +9,13 @@ export const Image = styled.img`
     filter: grayscale(100%);
     filter: gray;
 
+    &:hover{
+        -webkit-filter: none;
+        filter: none;
+        width: 100%;
+        transition: all 0.3s ease-in-out;
+    }
+
 
     ${({variant}) => variant !== "primary" && css`
     margin-top: 10px;
