@@ -102,12 +102,15 @@ export const ContainerWrapper = styled.div`
 export const ContainerSkills = styled.div`
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     width:50%;
 
     div{
-        width: 30%;
+        width: 35%;
         text-align: center;
+        margin-left: 10px;
     }
 
     img{

@@ -15,6 +15,8 @@ import js from '../../assets/images/js.png';
 import react from '../../assets/images/react.png';
 import php from '../../assets/images/php.png';
 import symfony from '../../assets/images/Symphony-php.jpg';
+import typescript from '../../assets/images/typescript.png';
+import nodeJs from '../../assets/images/NodeJS.png'
 
 import "./ManualParallax.css";
 
@@ -22,9 +24,9 @@ import "./ManualParallax.css";
 
 export  function Home() {
 
-    let htmlMessage = "HTML 5 est une révision du langage de balisage hypertexte (HTML), le langage de programmation standard pour décrire le contenu et l'apparence des pages Web." ;
+    let TypeScriptMessage = "TypeScript est un langage de programmation libre et open source développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript. Il s'agit d'un sur-ensemble syntaxique strict de JavaScript (c'est-à-dire que tout code JavaScript correct peut être utilisé avec TypeScript)." ;
 
-    let cssMessage = "Cascading Style Sheets Level 3 (CSS3) est l'itération de la norme CSS utilisée dans le style et le formatage des pages Web." ;
+    let nodeMessage = "NodeJS est un environnement d'exécution permettant d'utiliser le JavaScript côté serveur. Grâce à son fonctionnement non bloquant, il permet de concevoir des applications en réseau performantes, telles qu'un serveur web, une API ou un job CRON." ;
     
     let jsMessage = "JavaScript (souvent abrégé en JS) est un langage léger, interprété et orienté objet doté de fonctions de première classe. Il est surtout connu comme langage de script pour les pages Web, mais il est également utilisé dans de nombreux environnements autres que les navigateurs." ;
     
@@ -58,12 +60,12 @@ export  function Home() {
 
         // eslint-disable-next-line default-case
         switch (id){
-            case 'htmlImage':
-                setTextSkill(htmlMessage);
+            case 'typeScritImage':
+                setTextSkill(TypeScriptMessage);
                 setChangeColor(event.target);
                 break;
-            case 'cssImage':
-                setTextSkill(cssMessage);
+            case 'nodeImage':
+                setTextSkill(nodeMessage);
                 setChangeColorCss('secondary');
                 break;
             case 'jsImage':
@@ -158,9 +160,9 @@ export  function Home() {
             </div>
             <ContainerWrapper>
                 <ContainerSkills>
-                    <TextSkills variant={changeColor} id={'htmlImage'} onClick={handleTextSkills}  src={html} />
-                    <TextSkills variant={changeColorCss} id={'cssImage'} onClick={handleTextSkills}  src={css} />
+                    <TextSkills variant={changeColor} id={'typeScritImage'} onClick={handleTextSkills}  src={typescript} />                   
                     <TextSkills variant={changeColorJs} id={'jsImage'} onClick={handleTextSkills}  src={js} />
+                    <TextSkills variant={changeColorCss} id={'nodeImage'} onClick={handleTextSkills}  src={nodeJs} />
                     <TextSkills variant={changeColorReact} id={'reactImage'} onClick={handleTextSkills}  src={react} />
                     <TextSkills variant={changeColorPhp} id={'phpImage'} onClick={handleTextSkills}  src={php} />
                     <TextSkills variant={changeColorSym} id={'symfonyImage'} onClick={handleTextSkills}  src={symfony} />
